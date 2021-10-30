@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University || About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt="eduford"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- about us content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World's Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos hic error recusandae praesentium enim
+                    omnis ex tempora ratione! Laboriosam voluptate saepe autem. Corrupti id nisi pariatur, eius,
+                    voluptatibus libero illo dolorum modi asperiore Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Illum laudantium cumque architecto, exercitationem quam accusamus! s a possimus?</p>
+                <a href="" class="hero-btn red-btn">Explore More</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat fugit sed distinctio <br> excepturi id
+            nesciunt
+            illum. Nemo voluptatum accusamus odio!</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fad fa-heart"></i> By Nabil</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
